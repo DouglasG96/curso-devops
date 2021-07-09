@@ -1,4 +1,5 @@
 #!/bin/bash
+#da un error al crear la base de datos y el usuario
 set -e
 
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-EOSQL
