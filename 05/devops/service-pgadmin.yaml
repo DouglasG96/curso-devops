@@ -9,5 +9,5 @@ spec:
    app: pgadmin
   type: NodePort
   ports:
-   - port: 81
+   - port: 80
      nodePort: 30200
